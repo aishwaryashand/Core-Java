@@ -1,0 +1,15 @@
+class P3 
+{
+	public static void main(String[] args) 
+	{
+		int num=12345;
+		int rev=0;
+		do
+		{
+			rev=rev*10+num%10;
+			num=num/10;
+		}
+		while (num>0);
+		System.out.println("The reverse of the input is: "+rev);
+	}	
+}	
