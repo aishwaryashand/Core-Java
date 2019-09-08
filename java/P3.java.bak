@@ -1,0 +1,20 @@
+class P3
+{
+	public static void main(String[] args) 
+	{
+		float a=100.0f;
+		byte b=(byte)a;
+		short c=(short)a;
+		int d=(int)a;
+		long e=(long)a;
+		double f=a;
+		char g=(char)a;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+	}
+}

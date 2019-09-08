@@ -1,0 +1,34 @@
+class H 
+{
+	public static void main(String[] args) 
+	{
+		int i=0;
+		char ch='b';
+		switch(ch)
+		{
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+		case 'A':
+		case 'E':
+		case 'I':
+		case 'O':
+		case 'U':i++;
+		}
+		if (i==1)
+		{
+			System.out.println("Character entered is a vowel");
+		}
+		else
+			if ((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+			{
+				System.out.println("Character entered is a consonant");
+			}
+			else
+			{
+				System.out.println("Character entered is a number");
+			}
+	}
+}
