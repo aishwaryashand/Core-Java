@@ -1,0 +1,23 @@
+//import java.util.Scanner;
+class P
+{
+	static int a=0;
+	static int b=1;
+	static void fib(int count)
+	{
+		if (count>2)
+		{
+			int c=a+b;
+			System.out.print(" "+c);
+			a=b;
+			b=c;
+			fib(count-1);
+		}
+	}
+	public static void main(String[] args) 
+	{
+		System.out.print(a+" "+b);
+		fib(10);
+	}
+}
+

@@ -1,0 +1,11 @@
+class P1 
+{
+	public static void main(String[] args) 
+	{
+		int i=97;
+		for (i=97;i<=103 ;i++ )
+		{
+			System.out.println(char (i));
+		}
+	}
+}
