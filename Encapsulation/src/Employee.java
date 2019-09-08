@@ -1,0 +1,40 @@
+class Employee 
+{
+	private String name;
+	private int id;
+	private double salary;
+
+	Employee(String name,int id,double salary)
+	{
+		this.name=name;
+		this.id=id;
+		this.salary=salary;
+	}
+
+	String getname()
+	{
+		return name;
+	}
+	void setname(String name)
+	{
+		this.name=name;
+	}
+
+	int getid()
+	{
+		return id;	
+	}
+	void setid(int id)
+	{
+		this.id=id;
+	}
+
+	double getsalary()
+	{
+		return salary;
+	}
+	void setsalary(double salary)
+	{
+		this.salary=salary;
+	}
+}

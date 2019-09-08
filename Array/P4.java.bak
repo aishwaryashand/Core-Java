@@ -1,0 +1,10 @@
+class P4 
+{
+	public static void main(String[] args) 
+	{
+		int a[] = null;
+		System.out.println(a);
+		int b[] =new int [5];
+		System.out.println(b);
+	}
+}

@@ -1,0 +1,11 @@
+class P2 
+{
+	P2(int a)
+	{
+		System.out.println("It is a parameterized constructor with 1-arg");
+	}
+	public static void main(String[] args) 
+	{
+		P2 obj=new P2(10);
+	}
+}

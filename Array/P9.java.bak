@@ -1,0 +1,21 @@
+class P9
+{
+	void m1()
+	{
+		int a[]={1,2,3,4};
+		m2(a);
+	}
+	int m2(int a[])
+	{
+		int output=0;
+		for (int i=0;i<a.length ;i++ )
+		{
+			output=output + "/n"+ a[i];
+		}
+		return output;
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println(new P9().m1());
+	}
+}
