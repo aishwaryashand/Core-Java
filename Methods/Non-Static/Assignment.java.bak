@@ -1,0 +1,20 @@
+class Assignment 
+{
+	static int i =39;
+	static int j =i + ++i +20;
+	static int l= ++i +j + ++j;
+	static int k = m1();
+
+	static 
+ 
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}
+
+static m1()
+{
+	System.out.println("From m1");
+	return
+ 10}

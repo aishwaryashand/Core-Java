@@ -1,0 +1,13 @@
+class P1
+{
+	String a="From parent";
+	
+}
+class  P2 extends P1
+{
+	public static void main(String[] args) 
+	{
+		P1 obj=new P1();
+		System.out.println(obj.a);
+	}
+}

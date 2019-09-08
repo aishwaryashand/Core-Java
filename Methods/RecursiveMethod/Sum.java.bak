@@ -1,0 +1,19 @@
+class Sum 
+{
+	static int a=0;
+	static void sum(int count)
+	{
+		if (count>0)
+		{
+			int c=a+ a++;
+			System.out.print(" "+c);
+			sum(count-1);
+		}
+	}
+	public static void main(String[] args) 
+	{
+		//int count=10;
+		//fib(count);
+		sum(10);
+	}
+}

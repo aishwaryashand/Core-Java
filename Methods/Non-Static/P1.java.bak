@@ -1,0 +1,14 @@
+class P4 
+{
+	int a=10;
+	int b=20;
+	public static void main(String[] args) 
+	{
+		P4 obj=new P45();
+		System.out.println(obj.a); //with the help of object reference creation
+		System.out.println(obj.b); //with the help of object reference creation
+		System.out.println(new P4().a); //nameless object creation
+		System.out.println(new P4().b); //nameless object creation
+
+	}
+}

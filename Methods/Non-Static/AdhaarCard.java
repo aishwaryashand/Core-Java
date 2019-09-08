@@ -1,0 +1,27 @@
+class AdhaarCard 
+{
+	int a=30;
+	static void downloadAdhaar()
+	{
+		System.out.println("Please provide enrollment number.");
+	}
+	void downloadAdhaarCard()
+	{
+		System.out.println("Please provide adhaar number.");
+	}
+	{
+		System.out.println("Your adhaar is successfully downloaded.");
+	}
+	{
+		System.out.println("Khush raho.");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Welcome to adhaar organisation!");
+		AdhaarCard adhaarcard= new AdhaarCard();
+		System.out.println(adhaarcard.a++);
+		adhaarcard.downloadAdhaar();
+		adhaarcard.downloadAdhaarCard();
+		System.out.println(new AdhaarCard().a++);
+	}
+}
